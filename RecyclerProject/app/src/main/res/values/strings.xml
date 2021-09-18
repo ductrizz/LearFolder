@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RecyclerProject</string>
+    <string name="title_activity_main_two">MainActivityTwo</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="main_fragment_label">Recycler Sample</string>
+    <string name="linner_fragment_label">Recycler Linner</string>
+    <string name="grid_fragment_label">Recycler Grid</string>
+    <string name="staggered_fragment_label">Recycler Staggered Grid</string>
+    <!-- Strings used for layout for navigation -->
+    <string name="linnerRcl">Linner Recycler</string>
+    <string name="gridRcl">Grid Recycler</string>
+    <string name="staggered_gridRcl">Staggered Grid Recycler</string>
+
+    <string name="lesson_content"> <u>Lesson Content :</u></string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

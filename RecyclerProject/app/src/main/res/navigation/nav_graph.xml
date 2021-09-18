@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainFragment">
+
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.trild.recyclerproject.MainFragment"
+        android:label="@string/main_fragment_label"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_main_to_Linner"
+            app:destination="@id/LinnerFragment" />
+        <action
+            android:id="@+id/action_main_to_Grid"
+            app:destination="@id/GridFragment" />
+        <action
+            android:id="@+id/action_main_to_Staggered"
+            app:destination="@id/StaggeredFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/LinnerFragment"
+        android:name="com.trild.recyclerproject.LinnerFragment"
+        android:label="@string/linner_fragment_label"
+        tools:layout="@layout/fragment_linner">
+    </fragment>
+    <fragment
+        android:id="@+id/GridFragment"
+        android:name="com.trild.recyclerproject.GridFragment"
+        android:label="@string/grid_fragment_label"
+        tools:layout="@layout/fragment_grid">
+    </fragment>
+    <fragment
+        android:id="@+id/StaggeredFragment"
+        android:name="com.trild.recyclerproject.StaggeredFragment"
+        android:label="@string/staggered_fragment_label"
+        tools:layout="@layout/fragment_staggered">
+    </fragment>
+</navigation>

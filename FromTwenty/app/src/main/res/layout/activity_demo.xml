@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DemoActivity">
+
+    <CheckBox
+        android:id="@+id/ckbVietnamese"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Vietnamese"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:buttonTint="@android:color/holo_green_dark"
+        android:button="@drawable/checkbox_customize"
+        />
+
+    <CheckBox
+        android:id="@+id/ckbEnglish"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="English"
+        app:layout_constraintEnd_toEndOf="@+id/ckbVietnamese"
+        app:layout_constraintStart_toStartOf="@+id/ckbVietnamese"
+        app:layout_constraintTop_toBottomOf="@+id/ckbVietnamese"
+        android:buttonTint="@android:color/holo_green_dark"
+        android:button="@drawable/checkbox_customize"
+       />
+
+    <CheckBox
+        android:id="@+id/ckbJapanese"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Japanese"
+        app:layout_constraintEnd_toEndOf="@+id/ckbEnglish"
+        app:layout_constraintStart_toStartOf="@+id/ckbEnglish"
+        app:layout_constraintTop_toBottomOf="@+id/ckbEnglish"
+        android:buttonTint="@android:color/holo_green_dark"
+        android:button="@drawable/checkbox_customize"
+        />
+    <!--android:button="@drawable/checkbox_customize"-->
+    <CheckBox
+        android:id="@+id/ckbAllLangual"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="All Langual"
+        app:layout_constraintEnd_toEndOf="@+id/ckbJapanese"
+        app:layout_constraintStart_toStartOf="@+id/ckbJapanese"
+        app:layout_constraintTop_toBottomOf="@+id/ckbJapanese"
+        android:buttonTint="@android:color/holo_green_dark"
+        android:button="@drawable/checkbox_customize"
+        />
+
+    <RadioGroup
+        android:id="@+id/rdgProgramingLangual"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/ckbVietnamese"
+        app:layout_constraintTop_toTopOf="@+id/ckbVietnamese" >
+
+        <RadioButton
+            android:id="@+id/rdbJava"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:buttonTint="@android:color/black"
+            android:text="Java" />
+
+        <RadioButton
+            android:id="@+id/rdbKotlin"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:buttonTint="@android:color/black"
+            android:text="Kotlin" />
+
+        <RadioButton
+            android:id="@+id/rdbFluter"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:buttonTint="@android:color/black"
+            android:text="Fluter" />
+
+    </RadioGroup>
+
+
+        <CheckBox
+            android:id="@+id/ckbOneMonth"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="One Month"
+            android:buttonTint="@android:color/holo_red_dark"
+         />
+            <!-- ButtonTint __ Color Frame Check Box-->
+
+
+        <CheckBox
+            android:id="@+id/ckbSixMonth"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Six Month"
+            android:buttonTint="@android:color/holo_red_dark"
+            />
+
+        <CheckBox
+            android:id="@+id/ckbOneYear"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:buttonTint="@android:color/holo_red_dark"
+            android:text="OneYear" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flowlayoutCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="ckbOneMonth,ckbSixMonth,ckbOneYear"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/rdgProgramingLangual"
+        app:layout_constraintStart_toStartOf="@id/rdgProgramingLangual"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok!"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ckbOneYear"
+        app:layout_constraintEnd_toEndOf="@+id/ckbAllLangual"
+        app:layout_constraintStart_toStartOf="@+id/ckbAllLangual"
+        app:layout_constraintTop_toBottomOf="@+id/ckbAllLangual" />
+    <!--android:textAllCaps="false" : cho chữ viết thường-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

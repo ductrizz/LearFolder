@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c48ee29b-0df0-4e26-852b-361d3bdc3697" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/GithubSearch/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/GithubSearch/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/GithubSearch/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/GithubSearch/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/GithubSearch/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/GithubSearch/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/GithubSearch/hs_err_pid2924.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/java/com/trild/storageb11/MainActivity2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/java/com/trild/storageb11/RoomActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/java/com/trild/storageb11/TestActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/java/com/trild/storageb11/room/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/java/com/trild/storageb11/room/UserDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/java/com/trild/storageb11/room/UserDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/res/layout/activity_room.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/res/layout/activity_shared_preference.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../02.PROJECT/StorageB11/app/src/main/res/layout/activity_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/AmazingRace/app/src/main/res/drawable-v24/icon_charmander.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/AmazingRace/app/src/main/res/drawable-v24/icon_eevee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/AmazingRace/app/src/main/res/drawable-v24/icon_squirtle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/androidTest/java/com/trild/listview/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/java/com/trild/listview/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/java/com/trild/listview/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/java/com/trild/listview/StudentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/java/com/trild/listview/StudentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/java/com/trild/listview/TraiCay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/java/com/trild/listview/TraiCayAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/drawable-v24/tc_duasap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/drawable-v24/tc_mangcut.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/drawable-v24/tc_quytduong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/drawable-v24/tc_thanhlong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/drawable-v24/tc_xoaicat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/drawable/btn_customize01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/layout/activity_student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/layout/item_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/layout/item_student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/app/src/test/java/com/trild/listview/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../06.JAVA/ListView/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1xwQixYhVCH5F1ER7VyPbnYq69A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c48ee29b-0df0-4e26-852b-361d3bdc3697" name="Default Changelist" comment="" />
+      <created>1631263801579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631263801579</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
