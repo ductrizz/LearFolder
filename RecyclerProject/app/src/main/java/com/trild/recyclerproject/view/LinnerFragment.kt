@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Adapter
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 import com.trild.recyclerproject.adapter.AdapterLinner
@@ -68,7 +69,10 @@ class LinnerFragment : Fragment() {
             add(Student("Bùi Đức Trí", 1991))
             add(Student("Nguyễn Thị Thu Minh", 2001))
         }
-        adapter = AdapterLinner(listStudent)
+        adapter = AdapterLinner(requireContext(),listStudent){Itemstudent ->
+            //set click item
+            Toast.makeText(requireContext(), "Hello " + Itemstudent.name + "!", Toast.LENGTH_LONG).show()
+        }
         view?.findViewById<RecyclerView>(R.id.rcvLinner)?.adapter = adapter
     }
 }
