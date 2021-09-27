@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/MainFragment"
-        android:name="com.trild.recyclerproject.MainFragment"
+        android:name="com.trild.recyclerproject.view.MainFragment"
         android:label="@string/main_fragment_label"
         tools:layout="@layout/fragment_main">
         <action
@@ -22,19 +22,19 @@
     </fragment>
     <fragment
         android:id="@+id/LinnerFragment"
-        android:name="com.trild.recyclerproject.LinnerFragment"
+        android:name="com.trild.recyclerproject.view.LinnerFragment"
         android:label="@string/linner_fragment_label"
         tools:layout="@layout/fragment_linner">
     </fragment>
     <fragment
         android:id="@+id/GridFragment"
-        android:name="com.trild.recyclerproject.GridFragment"
+        android:name="com.trild.recyclerproject.view.GridFragment"
         android:label="@string/grid_fragment_label"
         tools:layout="@layout/fragment_grid">
     </fragment>
     <fragment
         android:id="@+id/StaggeredFragment"
-        android:name="com.trild.recyclerproject.StaggeredFragment"
+        android:name="com.trild.recyclerproject.view.StaggeredFragment"
         android:label="@string/staggered_fragment_label"
         tools:layout="@layout/fragment_staggered">
     </fragment>

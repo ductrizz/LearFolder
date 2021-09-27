@@ -1,4 +1,4 @@
-package com.trild.recyclerproject
+package com.trild.recyclerproject.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

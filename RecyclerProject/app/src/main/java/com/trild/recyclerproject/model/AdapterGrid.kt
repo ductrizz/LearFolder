@@ -1,5 +1,6 @@
 package com.trild.recyclerproject.model
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -8,22 +9,20 @@ import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
 import com.trild.recyclerproject.R
 
-class AdapterLinner(private val context: Context, private val listStudent: List<Student>, private val clickItem: (Student) -> Unit)  : RecyclerView.Adapter<AdapterLinner.ViewHolder>() {
+class AdapterGrid(private val context: Context, private val listStudent: List<Student>, private val clickItem: (Student) -> Unit)  : RecyclerView.Adapter<AdapterGrid.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_linner, parent,false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_grid, parent,false)
         return ViewHolder(view)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val student = listStudent.get(position)
         holder.apply {
             txtName.text = student.name
-            txtBirthday.text = student.birthYear.toString()
-            txtAge.text = student.age.toString()
-            btnEnter.setOnClickListener {
-                Toast.makeText(context,"Name: "+ txtName.text + ", Age: " + txtAge.text, Toast.LENGTH_LONG).show()
-            }
+            txtBirthday.text = "Birth: " + student.birthYear.toString()
+            txtAge.text = "Age: " + student.age.toString()
             itemView.setOnClickListener {
                 clickItem(student)
             }
@@ -35,12 +34,10 @@ class AdapterLinner(private val context: Context, private val listStudent: List<
     }
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val imgAvatar = view.findViewById<ImageView>(R.id.imgSubLinnerAvarta)
-        val txtName = view.findViewById<TextView>(R.id.txtSubLinnerName)
-        val txtBirthday = view.findViewById<TextView>(R.id.txtSubLinnerBirthYear)
-        val txtAge = view.findViewById<TextView>(R.id.txtSubLinnerAge)
-        val btnEnter = view.findViewById<Button>(R.id.btnSubLinnerEnter)
-
+        val imgAvatar = view.findViewById<ImageView>(R.id.imgSubGridAvatar)
+        val txtName = view.findViewById<TextView>(R.id.txtSubGridName)
+        val txtBirthday = view.findViewById<TextView>(R.id.txtSubGridBirthYear)
+        val txtAge = view.findViewById<TextView>(R.id.txtSubGridAge)
     }
 
 }

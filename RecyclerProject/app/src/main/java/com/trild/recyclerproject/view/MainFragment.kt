@@ -1,4 +1,4 @@
-package com.trild.recyclerproject
+package com.trild.recyclerproject.view
 
 import android.os.Build
 import android.os.Bundle
@@ -8,9 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.RecyclerView
-import com.trild.recyclerproject.adapter.AdapterLinner
-import com.trild.recyclerproject.adapter.Student
+import com.trild.recyclerproject.R
 import com.trild.recyclerproject.databinding.FragmentMainBinding
 
 /**

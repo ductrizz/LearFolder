@@ -1,4 +1,4 @@
-package com.trild.recyclerproject.adapter
+package com.trild.recyclerproject.model
 
 import android.os.Build
 import androidx.annotation.RequiresApi
